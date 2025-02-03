@@ -14,25 +14,60 @@
 
     .container{
       width: 1000px;
-      background-color: #fff;
       margin: auto;
-
     }
+
+    .header{
+      text-align: center;
+    }
+
+    .bio{
+      display: flex;
+    }
+
+    .body1{
+      display: flex;
+      margin: auto;
+      padding-left: 50px;
+      padding-right: 50px;
+      align-items: center;
+    }
+
+    .Education{
+      padding-left: 50px;
+    }
+
+    .myImage2{
+      width: 200px;
+      height: 200px;
+    }
+
+    .body2{
+      margin: auto;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+
+
+
+
+
  h1 {
-    color: navy;
+    color: rgb(172, 0, 14);
     font-family: 'SeafordBold';
     text-align: center;
   }
 
   h2 {
     font-family: SeafordRg;
-    color: navy;
+    color: rgb(172, 0, 14);
 }
 
   p.myP{
-    color: brown;
+    color: rgb(0, 0, 0);
     text-align: justify;
    text-justify: inter-word;
+    padding: 10px;
   }
 
   p{
@@ -45,7 +80,7 @@
 
  body {
         font-family: SeafordRg;
-        background-color:white;
+        background-color:rgb(192, 192, 192);
       }
 
 
@@ -71,7 +106,7 @@ ol li {
 }  
   ol li::before { 
     content:counter(num) "."; 
-    color: blue;     
+    color: rgb(172, 0, 14);     
 } 
 
 
@@ -82,7 +117,7 @@ ol li {
   }
   
   #mytable td, #mytable th {
-    border: 1px solid #ddd;
+    border: 1px solid rgb(172, 0, 14);
     padding: 8px;
   }
   
@@ -94,14 +129,15 @@ ol li {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: grey;
+    background-color: rgb(172, 0, 14);
     color: white;
   }
 
   label { display: inline-block; width: 100px; text-align: right; }
  
  img.myImage{
-  height: 140px;
-  width: 150px;
+  height: 180px;
+  width: 180px;
   border-radius: 50%;
+  padding: 10px;
  }
